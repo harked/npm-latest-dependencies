@@ -27,7 +27,7 @@ const getAllDependencies = async (packageName) => {
     };
 };
 
-// Write below to get package depencencies
+// Write below to get package dependencies
 getAllDependencies('forever');
 
 module.exports = getAllDependencies;
