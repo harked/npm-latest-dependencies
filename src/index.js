@@ -1,6 +1,8 @@
 const axios = require('axios');
 
 const getAllDependencies = async (packageName) => {
+
+    
     try {
         const allDependencies = [];
 
@@ -17,11 +19,9 @@ const getAllDependencies = async (packageName) => {
         });
 
         // for (let y = 0; y < allDependencies.length; y++) {
-        //     const aa = getAllDependencies(allDependencies[y]);
-        //     console.log(aa);
+        //     const pkg = getAllDependencies(allDependencies[y]);
         // }
 
-        console.log("allDependencies", allDependencies);
         return allDependencies;
 
     } catch (err) {
